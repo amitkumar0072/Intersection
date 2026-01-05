@@ -12,7 +12,7 @@
       return;
     }
 
-    const radius = 50;
+    const radius = Math.floor(Math.random() * 50) + 30;
     const x = Math.random() * (window.innerWidth - 2 * radius);
     const y = Math.random() * (window.innerHeight - 2 * radius);
 
